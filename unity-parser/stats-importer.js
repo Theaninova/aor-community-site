@@ -1,6 +1,6 @@
-import {configDotenv} from "dotenv";
+import { configDotenv } from "dotenv";
 import * as path from "path";
-import {readFile, writeFile} from "fs/promises";
+import { readFile, writeFile } from "fs/promises";
 
 configDotenv()
 

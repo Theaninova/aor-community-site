@@ -7,7 +7,7 @@
     "build": "vite build",
     "package": "svelte-kit package",
     "preview": "vite preview",
-    "optimize": "gulp",
+    "optimize": "NODE_OPTIONS='--no-experimental-fetch' gulp",
     "unity-import": "node unity-parser/stats-importer.js",
     "unity-parser": "node --loader ts-node/esm --experimental-specifier-resolution=node unity-parser/parse-scene.ts",
     "import:cars": "ts-node-esm unity-parser/car-importer.ts",

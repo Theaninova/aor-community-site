@@ -280,6 +280,18 @@
     }
   },
   {
+    "name": "the rotary kei",
+    "prefabName": "Car_Kei",
+    "carClass": "GROUP_2",
+    "carStats": {
+      "Engine": "1 rotor - 94 hp",
+      "Gears": 4,
+      "Transmission": "RWD",
+      "Aspiration": "NATURAL",
+      "Country": "JAPAN"
+    }
+  },
+  {
     "name": "the esky v2",
     "carNameIndex": 0,
     "prefabName": "Car_Escort_V2",
@@ -1040,6 +1052,18 @@
     }
   },
   {
+    "name": "das scholar",
+    "prefabName": "Car_Ascona",
+    "carClass": "GROUP_4",
+    "carStats": {
+      "Engine": "inline 4 - 340 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "NATURAL",
+      "Country": "GERMANY"
+    }
+  },
+  {
     "name": "the 4r6",
     "carNameIndex": 0,
     "prefabName": "Car_Metro",
@@ -1680,6 +1704,18 @@
     }
   },
   {
+    "name": "das maestro",
+    "prefabName": "Car_Manta400",
+    "carClass": "GROUP_B",
+    "carStats": {
+      "Engine": "inline 4 - 420 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "NATURAL",
+      "Country": "GERMANY"
+    }
+  },
+  {
     "name": "das eibenhammer",
     "carNameIndex": 0,
     "prefabName": "Car_Quattro_RS002",
@@ -2197,6 +2233,18 @@
       "Steering": 1.0,
       "SteeringAlignment": 0.0,
       "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "the kingpin",
+    "prefabName": "Car_Focus",
+    "carClass": "GROUP_A",
+    "carStats": {
+      "Engine": "inline 4 - 815 hp",
+      "Gears": 5,
+      "Transmission": "AWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "ENGLAND"
     }
   },
   {

@@ -1,7 +1,8 @@
-import {configDotenv} from "dotenv";
+import { configDotenv } from "dotenv";
 import * as path from "path";
 import fs from "fs/promises";
-import type {Car} from '../src/lib/leaderboard/data/cars'
+import type { Car } from '../src/lib/leaderboard/data/cars'
+import { existsSync } from "fs";
 
 configDotenv()
 
@@ -14,7 +15,8 @@ const staticPath = path.join('static', 'cars')
 for (const car of cars) {
   const modelPath = path.join(carPath, car.prefabName.toLowerCase())
   const targetPath = path.join(staticPath, car.prefabName)
-  await fs.rm(targetPath, {recursive: true})
+  if (existsSync(targetPath))
+    await fs.rm(targetPath, { recursive: true })
   await fs.mkdir(targetPath)
 
   await fs.copyFile(path.join(modelPath, `${car.prefabName}.glb`), path.join(targetPath, `${car.prefabName}.glb`))
